@@ -1,0 +1,10 @@
+# on Debian / Windows run following command for apply needed file encoding
+chcp 65001
+# for import nltk.stopwords from corpus submodule run
+nltk.download()
+
+# base file
+./src/tgnews.py
+
+# run
+python ./stc/tgnews.py
